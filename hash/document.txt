@@ -1,0 +1,11 @@
+Dictionary 자료구조를 통해 해시 제공 - dict 클래스 [ v3.7이상 : 순서 고려 , v3.7미만: 순서 미고려]
+    1. 리스트를 쓸 수 없을 때 ex) list['a']
+    2. 빠른 접근 및 탐색이 필요할 때
+    3. 집계가 필요할 때 
+
+* 원소 개수 세는 문제 -> 해시, collections 모듈의 Counter 클래스 사용
+
+ ex) dict = {} / dict = dict()
+    1. 원소 가져오기 - dict['key'], dict.get('key', 0) 
+    2. 값 넣기, 업데이트 - dict['key']=100 
+    3. 특정 key값 지우기 - del dict['key'] // pop도 가능 (반환할 때)
