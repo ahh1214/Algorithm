@@ -11,3 +11,15 @@
   2) 최대 힙(max heap)
 	- 루트 노드가 가장 큰 값을 가짐
 	- 따라서 값이 큰 데이터가 우선적으로 제거됨
+
+* 힙 라이브러리
+//임포트 
+import heapq
+//최소 힙 생성 
+ - heap = []
+//힙에 원소 추가
+  - heapq.heappush(heap, item)
+//힙에 원소 삭제
+  - heapq.heappop(heap)
+//최소값 삭제 안하고 얻기
+  - heap[0]
