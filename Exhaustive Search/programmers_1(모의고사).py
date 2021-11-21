@@ -26,3 +26,6 @@ def solution(answers):
             answer.append(j+1)
     
     return answer
+
+a_case = solution([1,2,3,4,5]) #1
+b_case = solution([1,3,2,4,2]) #1,2,3
