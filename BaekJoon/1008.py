@@ -1,5 +1,3 @@
-# num = input().split()
+num = input().split()
 
-# print(num[0]/num[1])
-
-print(1/3)
+print(int(num[0])/int(num[1]))
