@@ -1,6 +1,4 @@
 star_len = int(input())
 
-for i in range(star_len):
-    for j in range(0,i-star_len):
-        print("*", end="")
-    print()
+for i in range(1,star_len+1):
+    print(" "*(star_len-i) + "*"*i)
