@@ -8,5 +8,5 @@ for i in range(wd_len):
             pass
         elif wd[j] in wd[j+1:]: #연속하지않는데 뒤에 존재
             wd_cnt -=1
-        
+            break
 print(wd_cnt)
